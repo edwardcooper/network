@@ -19,4 +19,13 @@
 
 `chmod +x check_ubuntu_img.sh`
 
-`sudo ./check_ubuntu_img.sh`
+`./check_ubuntu_img.sh`
+
+
+## Install tails 
+
+`wget https://raw.githubusercontent.com/edwardcooper/network/master/check_tails.sh`
+
+`chmod +x /check_tails.sh`
+
+`./check_tails.sh`
