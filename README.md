@@ -22,7 +22,7 @@
 `./check_ubuntu_img.sh`
 
 
-## Install tails 
+## Download and verify tails ios
 
 `wget https://raw.githubusercontent.com/edwardcooper/network/master/check_tails.sh`
 
