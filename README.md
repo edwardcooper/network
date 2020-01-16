@@ -23,7 +23,7 @@
 
 `docker run -it --rm -v "$PWD":/home/jovyan/work --shm-size=1024m -p 8888:8888 edwardcooper/data-science`
 ### docker with minimal-notebook 
-docker run -it --rm -v "$PWD":/home/jovyan/work --shm-size=1024m -p 8888:8888 jupyter/minimal-notebook:latest
+`docker run -it --rm -v "$PWD":/home/jovyan/work --shm-size=1024m -p 8888:8888 jupyter/minimal-notebook:latest`
 
 # ubuntu with python installed
 docker run -it -v "$PWD":/home/ --net=host ubuntu-python
